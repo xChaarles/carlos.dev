@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './contacto.component.html',
   styles: ``
 })
-export class ContactoComponent {
+export default class ContactoComponent {
 
 }

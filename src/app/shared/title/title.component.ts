@@ -3,9 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   standalone: true,
   imports: [],
-  templateUrl: './footer.component.html',
+  templateUrl: './title.component.html',
   styles: ``
 })
-export class FooterComponent {
+export class TitleComponent {
 
 }
