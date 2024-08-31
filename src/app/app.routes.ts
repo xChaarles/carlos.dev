@@ -7,11 +7,6 @@ export const routes: Routes = [
         loadComponent: () => import('./header/header.component'),
         children:[
             {
-                path: 'contacto',
-                title: ' Contacto',
-                loadComponent:() => import("./header/Pages/contacto/contacto.component") ,
-            },
-            {
                 path: 'info-personal',
                 title: 'Informacion Personal',
                 loadComponent: () => import("./header/Pages/info-personal/info-personal.component"),
@@ -20,6 +15,11 @@ export const routes: Routes = [
                 path: 'proyectos',
                 title: 'Proyectos',
                 loadComponent: () => import("./header/Pages/proyectos/proyectos.component"),
+            },
+            {
+                path: 'contacto',
+                title: ' Contacto',
+                loadComponent:() => import("./header/Pages/contacto/contacto.component") ,
             },
             {
                 path:'', 
