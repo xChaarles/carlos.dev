@@ -8,7 +8,7 @@ export const routes: Routes = [
         children:[
             {
                 path: 'info-personal',
-                title: 'Informacion Personal',
+                title: 'Inicio',
                 loadComponent: () => import("./header/Pages/info-personal/info-personal.component"),
             },
             {
