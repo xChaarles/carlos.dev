@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   standalone: true,
   imports: [],
   templateUrl: './info-personal.component.html',
-  styles: ``
+  styleUrl: './info-personal.component.css',
 })
 export  default class InfoPersonalComponent {
 

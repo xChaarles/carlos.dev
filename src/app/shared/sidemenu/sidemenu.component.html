@@ -1,8 +1,9 @@
-<nav class="flex mx-auto px-2 sm:px-6 justify-evenly lg:px-8 dark:bg-black">
+<nav class="flex mx-auto px-2 sm:px-6 border-b border-black justify-evenly lg:px-8 dark:bg-black dark:border-[#35b6ed]">
     <div class="flex h-16 items-center  gap-x-6">
         <div class="flex items-center">
-          <span class="font-black text-2xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-purple-800 
-          dark:text-ransparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:via-pink-500 dark:to-purple-800">Dev. Carlos Beltran</span>
+          <a href=""
+          class="font-black text-2xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-purple-800 
+          dark:text-ransparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500  dark:to-purple-800">Dev. Carlos Beltran</a>
         </div>
     </div>
     <div class="flex items-center justify-center">
@@ -13,7 +14,7 @@
               <a
                 [routerLink]="item.path"
                 routerLinkActive="bg-gradient-to-r from-blue-500 to-purple-800 text-white"
-                class="font-black uppercase text-2xl rounded-full px-3 py-2 text-sm font-medium
+                class=" rounded-full px-3 py-2 text-sm font-black uppercase
                 dark:rounded-full dark:px-3 dark:py-2 dark:text-sm dark:font-black dark:text-white" aria-current="page">{{item.title}}</a>
             </div>
           </div>
