@@ -18,7 +18,7 @@ export const routes: Routes = [
             },
             {
                 path: 'contacto',
-                title: ' Contacto',
+                title: 'Contacto',
                 loadComponent:() => import("./header/Pages/contacto/contacto.component") ,
             },
             {

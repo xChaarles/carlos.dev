@@ -6,9 +6,6 @@
             <h1 class="font-black text-4xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 
             dark:text-ransparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-600  dark:to-purple-800">Carlos Beltran</h1>
         </div>
-        <div class="w-3/4 text-[20px] my-2">
-            <p class="whitespace-normal">📍- Colombia</p>
-        </div>
         <div class="font-semibold animated-text flex my-3">
             <h3 class="pr-2 text-[26px] ">Soy,</h3><span class="text-[26px] text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-800 pr-3"></span>
         </div>
@@ -16,7 +13,7 @@
             <p class="indent-8 whitespace-normal">Soy desarrollador con conocimientos en el Front-end y bak-end, Ademas siempre estoy en
                 constante aprendizaje de las tecnologias que menejo,</p>
         </div>
-        <div class="flex my-4 gap-2">
+        <div class="flex my-4 gap-2 py-3">
             <a href="https://github.com/xChaarles">
                 <svg class="w-[30px] h-[30px] fill-[black] dark:fill-[white]" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
                 <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -30,42 +27,223 @@
                 </svg>
             </a>
         </div>
-        <div class="flex gap-4">
-            <button class="btn relative inline-flex items-center justify-start overflow-hidden font-medium border-2 border-[#35b6ed] transition-all bg-transparent rounded-full hover:bg-white group py-1.5 px-[28px]">
+        <div class="flex gap-10">
+            <button class="btn relative inline-flex shadow-cyan-600 items-center justify-start overflow-hidden font-medium border-2 border-[#35b6ed] transition-all bg-transparent rounded-xl hover:bg-white group py-[10px] px-[28px]">
                 <span class="w-56 h-48 rounded bg-[#35b6ed] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                 <a href="https://drive.google.com/file/d/1FOSOIhFyTJj_NF77TLVDa5dt7bMNv3YZ/view?usp=sharing"
                     class="relative w-full text-left text-[#35b6ed] transition-colors duration-300 ease-in-out group-hover:text-white">Donwload CV</a>
                 </button>
-            <button class="btn relative inline-flex items-center justify-start overflow-hidden font-medium border-2 border-[#35b6ed] transition-all bg-transparent rounded-full hover:bg-white group py-1.5 px-[40px]">
+            <button  [routerLink]="['/header/contacto']"
+            class="btn relative inline-flex items-center justify-start overflow-hidden font-medium shadow-cyan-600 border-2 border-[#35b6ed] transition-all bg-transparent rounded-xl hover:bg-white group py-[10px] px-[40px]">
                 <span class="w-56 h-48 rounded bg-[#35b6ed] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                 <span class="relative w-full text-left text-[#35b6ed] transition-colors duration-300 ease-in-out group-hover:text-white">Contacto</span>
             </button>
         </div>
     </div>
-    <div class="">
-        <img class="rounded-full border-4 border-[#35b6ed] cursor-pointer w-[300px] h-[300px]" src="carlos2.jpg" alt="carlos">
+    <div class="flex relative">
+        <div class="absolute -inset-px rounded-full bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] opacity-100 blur-lg duration-1000 group-hover:-inset-1 group-hover:opacity-100 group-hover:duration-100 -z-10"></div>
+        <img class="rounded-full border-[#35b6ed] cursor-pointer w-[300px] h-[300px] relative inline-flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 cursor-pointe" src="carlos2.jpg" alt="carlos">
     </div>
 </div>
 </section>
 <section class="bg-transparent">
-    <div class="flex flex-col dark:text-white mx-20 mr-[270px] items-center h-[600px]">
+    <div class="flex flex-col dark:text-white mx-[330px] mr-[270px] items-center py-10">
         <div class="my-3 uppercase font-black text-4xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 
         dark:text-ransparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-600  dark:to-purple-800">
-            <h1 class="text-4xl items-center font-semibold">Tecnologias</h1>
+            <h1 class="text-4xl items-center py-8">Tecnologias</h1>
         </div>
-        <div class="flex flex-col-2">
-            <div>
-                <h2>Front-End</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-28 py-16" >
+            <div class="rounded-xl border-b-2 border-r-2 shadow-card border-[#35b6ed] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                <div class="h-32 w-96 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125">
+                    </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent 
+                dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70">
+                </div>
+                <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                    <h1 class="font-dmserif text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-800">Front-end</h1>
+                    <div class="flex">
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect><polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon><path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
+                    </svg>
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <linearGradient id="iOmQfjoCC4Hw6zVwRjSDha_x7XMNGh2vdqA_gr1" x1="21.861" x2="25.703" y1="8.237" y2="36.552" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00c1e0"></stop><stop offset="1" stop-color="#009bb8"></stop></linearGradient><path fill="url(#iOmQfjoCC4Hw6zVwRjSDha_x7XMNGh2vdqA_gr1)" d="M24,9.604c-5.589,0-9.347,2.439-11.276,7.318c-0.2,0.505,0.417,0.92,0.816,0.551 c2.035-1.882,4.322-2.505,6.86-1.871c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24 c5.589,0,9.348-2.44,11.276-7.319c0.2-0.505-0.417-0.92-0.816-0.551c-2.035,1.882-4.322,2.506-6.86,1.872 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-5.589,0-9.348,2.44-11.276,7.319 c-0.2,0.505,0.417,0.92,0.816,0.551c2.035-1.882,4.322-2.506,6.86-1.871c1.825,0.457,3.13,1.781,4.575,3.246 c2.353,2.388,5.077,5.152,11.025,5.152c5.589,0,9.348-2.44,11.276-7.319c0.2-0.505-0.417-0.92-0.816-0.551 c-2.035,1.882-4.322,2.506-6.86,1.871c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24L12,24z"></path>
+                    </svg>
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                    </svg>
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
+                    </svg>
+                </div>
+                </div>
+            </div>
+            <div class="rounded-xl border-b-2 border-r-2 shadow-card border-[#35b6ed] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                <div class="h-32 w-96 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125">
+                    </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent 
+                dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70">
+                </div>
+                <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                    <h1 class="font-dmserif text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-800">Back-end</h1>
+                    <div class="flex">
+                        <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                            <path fill="#d43a02" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999	c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#d43a02" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743	s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1" x1="22.677" x2="30.737" y1="21.174" y2="43.318" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1)" d="M32.084,25.055c1.754-0.394,3.233,0.723,3.233,2.01c0,2.901-4.021,5.643-4.021,5.643 s6.225-0.742,6.225-5.505C37.521,24.053,34.464,23.266,32.084,25.055z M29.129,27.395c0,0,1.941-1.383,2.458-1.902 c-4.763,1.011-15.638,1.147-15.638,0.269c0-0.809,3.507-1.638,3.507-1.638s-7.773-0.112-7.773,2.181 C11.683,28.695,21.858,28.866,29.129,27.395z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2" x1="19.498" x2="27.296" y1="22.77" y2="44.196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2)" d="M27.935,29.571 c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3" x1="18.698" x2="26.59" y1="23.455" y2="45.14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3)" d="M18.686,32.739 c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4" x1="18.03" x2="25.861" y1="24.198" y2="45.712" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4)" d="M36.281,36.632 c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839 C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5" x1="20.725" x2="28.228" y1="24.582" y2="45.197" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5)" d="M39,38.604 c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border-b-2 border-r-2 shadow-card border-[#35b6ed] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                <div class="h-32 w-96 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125">
+                    </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent 
+                dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70">
+                </div>
+                <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                    <h1 class="font-dmserif text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-800">Frameworks</h1>
+                    <div class="flex">
+                        <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                            <path fill="#bdbdbd" d="M23.933 2L3 9.285 6.308 36.408 23.955 46 41.693 36.278 45 9.156z"></path><path fill="#b71c1c" d="M42.818 10.527L24 4.135 24 43.695 39.832 35.017z"></path><path fill="#dd2c00" d="M23.941 4.115L5.181 10.644 8.168 35.143 23.951 43.721 24 43.695 24 4.135z"></path><path fill="#bdbdbd" d="M24 5.996L24 15.504 32.578 34 36.987 34z"></path><path fill="#eee" d="M11.013 34L15.422 34 24 15.504 24 5.996z"></path><path fill="#bdbdbd" d="M24 24H30V28H24z"></path><path fill="#eee" d="M18 24H24V28H18z"></path>
+                        </svg>
+                        <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                            <path fill="#8bc34a" d="M43.982,23.635c0.069-4.261-0.891-9.328-2.891-15.273l-1.568-4.662l-2.13,4.433 c-0.114,0.237-0.244,0.469-0.38,0.698C33.514,5.827,28.974,4,24,4C12.954,4,4,12.954,4,24c0,11.046,8.954,20,20,20s20-8.954,20-20 C44,23.877,43.984,23.758,43.982,23.635z"></path><path fill="#fff" d="M39.385 32.558c-3.123 4.302-8.651 4.533-13.854 4.442H18.75h-1.938c4.428-1.593 7.063-1.972 9.754-3.4 5.068-2.665 10.078-8.496 11.121-14.562-1.93 5.836-7.779 10.85-13.109 12.889-3.652 1.393-10.248 2.745-10.248 2.745l-.267-.145C9.573 32.268 9.437 22.214 17.6 18.968c3.574-1.423 6.993-.641 10.854-1.593 4.122-1.012 8.89-4.208 10.83-8.375C41.456 15.667 44.07 26.106 39.385 32.558L39.385 32.558zM15.668 38.445C15.386 38.795 14.955 39 14.505 39c-.823 0-1.495-.677-1.495-1.5s.677-1.5 1.495-1.5c.341 0 .677.118.941.336C16.086 36.855 16.186 37.805 15.668 38.445L15.668 38.445z"></path>
+                        </svg>
+                        <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                            <path fill="#21a366" d="M24.007,45.419c-0.574,0-1.143-0.15-1.646-0.44l-5.24-3.103c-0.783-0.438-0.401-0.593-0.143-0.682	c1.044-0.365,1.255-0.448,2.369-1.081c0.117-0.067,0.27-0.043,0.39,0.028l4.026,2.389c0.145,0.079,0.352,0.079,0.486,0l15.697-9.061	c0.145-0.083,0.24-0.251,0.24-0.424V14.932c0-0.181-0.094-0.342-0.243-0.432L24.253,5.446c-0.145-0.086-0.338-0.086-0.483,0	L8.082,14.499c-0.152,0.086-0.249,0.255-0.249,0.428v18.114c0,0.173,0.094,0.338,0.244,0.42l4.299,2.483	c2.334,1.167,3.76-0.208,3.76-1.591V16.476c0-0.255,0.2-0.452,0.456-0.452h1.988c0.248,0,0.452,0.196,0.452,0.452v17.886	c0,3.112-1.697,4.9-4.648,4.9c-0.908,0-1.623,0-3.619-0.982l-4.118-2.373C5.629,35.317,5,34.216,5,33.042V14.928	c0-1.179,0.629-2.279,1.646-2.861L22.36,3.002c0.994-0.562,2.314-0.562,3.301,0l15.694,9.069C42.367,12.656,43,13.753,43,14.932	v18.114c0,1.175-0.633,2.271-1.646,2.861L25.66,44.971c-0.503,0.291-1.073,0.44-1.654,0.44"></path><path fill="#21a366" d="M28.856,32.937c-6.868,0-8.308-3.153-8.308-5.797c0-0.251,0.203-0.452,0.455-0.452h2.028	c0.224,0,0.413,0.163,0.448,0.384c0.306,2.066,1.218,3.108,5.371,3.108c3.308,0,4.715-0.747,4.715-2.502	c0-1.01-0.401-1.76-5.54-2.263c-4.299-0.424-6.955-1.371-6.955-4.809c0-3.167,2.672-5.053,7.147-5.053	c5.026,0,7.517,1.745,7.831,5.493c0.012,0.13-0.035,0.255-0.122,0.35c-0.086,0.09-0.208,0.145-0.334,0.145h-2.039	c-0.212,0-0.397-0.149-0.44-0.354c-0.491-2.173-1.678-2.868-4.904-2.868c-3.611,0-4.031,1.257-4.031,2.2	c0,1.143,0.495,1.477,5.367,2.122c4.825,0.64,7.116,1.544,7.116,4.935c0,3.418-2.853,5.379-7.827,5.379"></path>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border-b-2 border-r-2 shadow-card border-[#35b6ed] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                <div class="h-32 w-96 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125">
+                    </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent 
+                dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70">
+                </div>
+                <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                    <h1 class="font-dmserif text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-800">Database</h1>
+                    <div class="flex gap-2">
+                        <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                            <path fill="#fff" d="M44.083,29.79c-0.183-0.829-0.935-1.796-2.452-1.796c-0.31,0-0.649,0.039-1.035,0.119c-0.708,0.146-1.311,0.217-1.842,0.241c4.133-7.04,6.816-16.819,4.159-20.214c-3.501-4.473-8.214-5.141-10.711-5.141L31.967,3c-0.929,0.015-1.893,0.129-2.863,0.339l-3.583,0.774C25.033,4.052,24.536,4.009,24.018,4l-0.03,0l-0.016,0l-0.152-0.001c-1.593,0-3.046,0.338-4.341,0.973l-1.251-0.493c-1.72-0.678-4.308-1.485-6.868-1.485c-0.144,0-0.287,0.003-0.431,0.008C8.407,3.093,6.241,4.05,4.664,5.769C2.696,7.915,1.8,11.054,2.003,15.1C2.013,15.309,4.461,36,11.4,36h0.025l0.064-0.001c0.901-0.022,1.76-0.384,2.563-1.077c0.613,0.46,1.406,0.732,2.145,0.84c0.488,0.115,1.366,0.278,2.418,0.278c1.284,0,2.442-0.263,3.44-0.738c-0.001,0.88-0.006,1.994-0.016,3.418l-0.001,0.075l0.005,0.075c0.097,1.419,0.342,2.698,0.711,3.701c1.051,2.859,2.866,4.434,5.111,4.434c0.093,0,0.188-0.003,0.284-0.009c1.846-0.114,3.717-1.151,5.004-2.772c1.393-1.755,1.715-3.607,1.839-5.026L35,39.111v-0.088v-4.079l0.103,0.01l0.436,0.038l0.042,0.004l0.042,0.002c0.124,0.006,0.252,0.008,0.381,0.008c1.507,0,3.362-0.391,4.616-0.974C41.819,33.476,44.559,31.948,44.083,29.79z"></path><path fill="#0277bd" d="M33,34c0-0.205,0.012-0.376,0.018-0.565C33.008,33.184,33,33,33,33s0.012-0.009,0.032-0.022c0.149-2.673,0.886-3.703,1.675-4.29c-0.11-0.153-0.237-0.318-0.356-0.475c-0.333-0.437-0.748-0.979-1.192-1.674l-0.082-0.158c-0.067-0.164-0.229-0.447-0.435-0.819c-1.183-2.14-3.645-6.592-1.96-9.404c0.738-1.232,2.122-1.942,4.121-2.117C33.986,11.718,30.925,6.115,23.985,6c-0.002,0-0.004,0-0.006,0c-6.041-0.098-8.026,5.392-8.672,8.672c0.89-0.377,1.906-0.606,2.836-0.606c0.014,0,0.029,0,0.043,0c2.29,0.017,3.865,1.239,4.323,3.354c0.335,1.552,0.496,2.91,0.492,4.153c-0.01,2.719-0.558,4.149-1.042,5.411l-0.154,0.408c-0.124,0.334-0.255,0.645-0.379,0.937c-0.126,0.298-0.237,0.563-0.318,0.802c0.484,0.11,0.864,0.265,1.125,0.38l0.151,0.066c0.047,0.02,0.094,0.043,0.137,0.069c0.848,0.516,1.376,1.309,1.489,2.233c0.061,0.498,0.051,3.893,0.03,6.855c0.087,1.285,0.305,2.364,0.593,3.146c0.409,1.114,1.431,3.241,3.394,3.119c1.37-0.085,2.687-0.919,3.561-2.019c0.938-1.181,1.284-2.487,1.414-3.958V34z"></path><path fill="#0277bd" d="M15.114 28.917c-1.613-1.683-2.399-3.947-2.104-6.056.285-2.035.124-4.027.037-5.098-.029-.357-.048-.623-.047-.77 0-.008.002-.015.003-.023 0-.004-.002-.007-.002-.011.121-3.021 1.286-7.787 4.493-10.62C15.932 5.724 13.388 4.913 11 5 7.258 5.136 3.636 7.724 4 15c.137 2.73 3.222 19.103 7.44 19 .603-.015 1.229-.402 1.872-1.176 1.017-1.223 2.005-2.332 2.708-3.104C15.705 29.481 15.401 29.217 15.114 28.917zM37.023 14.731c.015.154.002.286-.022.408.031.92-.068 1.813-.169 2.677-.074.636-.15 1.293-.171 1.952-.021.645.07 1.282.166 1.956.225 1.578.459 3.359-.765 5.437.225.296.423.571.581.837 4.61-7.475 6.468-16.361 4.695-18.626C38.655 5.944 34.941 4.952 31.999 5c-.921.015-1.758.139-2.473.294C34.602 7.754 36.863 13.026 37.023 14.731zM41 30.071c-2.665.55-3.947.257-4.569-.126-.1.072-.2.133-.293.19-.372.225-.961.583-1.105 2.782.083.016.156.025.246.044L35.714 33c1.32.06 3.049-.31 4.063-.781C41.962 31.205 43.153 29.627 41 30.071zM22.023 32.119c-.037-.298-.198-.539-.492-.732l-.108-.047C21.062 31.181 20.653 31 20 31h-.004c-.127.01-.253.019-.38.019-.052 0-.103-.007-.155-.009-.474.365-1.148.647-2.816.99-2.98.759-1.221 1.655-.078 1.794 1.106.277 3.735.614 5.481-.809C22.043 32.537 22.035 32.229 22.023 32.119z"></path><path fill="#0277bd" d="M20.681 18.501c-.292.302-.753.566-1.262.484-.828-.134-1.463-1.133-1.417-1.508h0c.044-.374.751-.569 1.578-.435.287.047.548.128.768.228-.32-.688-.899-1.085-1.782-1.182-1.565-.174-3.226.644-3.56 1.097.007.11.02.251.033.417.093 1.147.265 3.284-.05 5.537-.208 1.485.393 3.169 1.567 4.395.757.79 1.641 1.29 2.513 1.438.111-.478.309-.944.513-1.425.113-.265.233-.547.346-.852l.162-.427c.443-1.155.9-2.35.909-4.703C21.003 20.66 20.892 19.627 20.681 18.501zM34.847 22.007c-.104-.729-.211-1.484-.185-2.303.023-.742.105-1.442.184-2.119.062-.533.11-1.045.138-1.55-1.289.107-2.145.479-2.551 1.108.168-.057.358-.102.568-.129.892-.116 1.543.141 1.618.637.055.363-.253.705-.388.836-.277.269-.626.442-.981.488-.064.008-.129.012-.192.012-.353 0-.69-.121-.949-.3.112 1.973 1.567 4.612 2.283 5.907.153.277.271.498.369.688C35.154 24.163 35.009 23.143 34.847 22.007z"></path>
+                        </svg>
+                        <img class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100 w-[50px] h-[50px]" src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-transparent py-12">
+    <div class="flex flex-col dark:text-white mx-[330px] mr-[270px] gap-y-10 items-center">
+        <div class="my-3 uppercase font-black text-4xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 
+        dark:text-ransparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-600  dark:to-purple-800">
+            <h1 class="text-4xl items-center py-8">proyectos</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
+            <div class="rounded-xl border-b-2 border-r-2 shadow-card border-[#35b6ed] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                <div class="h-32 w-96 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125">
+                    </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent 
+                dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70">
+                </div>
+                <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                    <h1 class="font-dmserif text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-800">Front-end</h1>
+                    <div class="flex">
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect><polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon><path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
+                    </svg>
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <linearGradient id="iOmQfjoCC4Hw6zVwRjSDha_x7XMNGh2vdqA_gr1" x1="21.861" x2="25.703" y1="8.237" y2="36.552" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00c1e0"></stop><stop offset="1" stop-color="#009bb8"></stop></linearGradient><path fill="url(#iOmQfjoCC4Hw6zVwRjSDha_x7XMNGh2vdqA_gr1)" d="M24,9.604c-5.589,0-9.347,2.439-11.276,7.318c-0.2,0.505,0.417,0.92,0.816,0.551 c2.035-1.882,4.322-2.505,6.86-1.871c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24 c5.589,0,9.348-2.44,11.276-7.319c0.2-0.505-0.417-0.92-0.816-0.551c-2.035,1.882-4.322,2.506-6.86,1.872 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-5.589,0-9.348,2.44-11.276,7.319 c-0.2,0.505,0.417,0.92,0.816,0.551c2.035-1.882,4.322-2.506,6.86-1.871c1.825,0.457,3.13,1.781,4.575,3.246 c2.353,2.388,5.077,5.152,11.025,5.152c5.589,0,9.348-2.44,11.276-7.319c0.2-0.505-0.417-0.92-0.816-0.551 c-2.035,1.882-4.322,2.506-6.86,1.871c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24L12,24z"></path>
+                    </svg>
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                    </svg>
+                    <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                        <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
+                    </svg>
+                </div>
+                </div>
             </div>
             <div>
-                <h2>Back-End</h2>
+                <div>
+                    <h1>descripcion</h1>
+                </div>
+            </div>
+            <div class="rounded-xl border-b-2 border-r-2 shadow-card border-[#35b6ed] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                <div class="h-32 w-96 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125">
+                    </div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent 
+                dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70">
+                </div>
+                <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                    <h1 class="font-dmserif text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-800">Back-end</h1>
+                    <div class="flex">
+                        <svg class="mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                            <path fill="#d43a02" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999	c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#d43a02" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743	s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1" x1="22.677" x2="30.737" y1="21.174" y2="43.318" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1)" d="M32.084,25.055c1.754-0.394,3.233,0.723,3.233,2.01c0,2.901-4.021,5.643-4.021,5.643 s6.225-0.742,6.225-5.505C37.521,24.053,34.464,23.266,32.084,25.055z M29.129,27.395c0,0,1.941-1.383,2.458-1.902 c-4.763,1.011-15.638,1.147-15.638,0.269c0-0.809,3.507-1.638,3.507-1.638s-7.773-0.112-7.773,2.181 C11.683,28.695,21.858,28.866,29.129,27.395z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2" x1="19.498" x2="27.296" y1="22.77" y2="44.196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2)" d="M27.935,29.571 c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3" x1="18.698" x2="26.59" y1="23.455" y2="45.14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3)" d="M18.686,32.739 c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4" x1="18.03" x2="25.861" y1="24.198" y2="45.712" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4)" d="M36.281,36.632 c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839 C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5" x1="20.725" x2="28.228" y1="24.582" y2="45.197" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5)" d="M39,38.604 c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path>
+                        </svg>
+                    </div>
+                </div>
             </div>
             <div>
-                <h2>Frameworks</h2>
+                <div>
+                    <h1>descripcion</h1>
+                </div>
             </div>
-            <div>
-                <h2>Database</h2>
+        </div>
+        <button [routerLink]="['/header/proyectos']"
+        class="btn relative inline-flex items-center justify-start overflow-hidden font-medium shadow-cyan-600 border-2 border-[#35b6ed] transition-all bg-transparent rounded-xl hover:bg-white group py-[10px] px-[40px]">
+            <span class="w-56 h-48 rounded bg-[#35b6ed] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+            <span class="relative w-full text-left text-[#35b6ed] transition-colors duration-300 ease-in-out group-hover:text-white">Mas Proyectos</span>
+        </button>
+    </div>
+</section>
+<section class="bg-transparent pl-[250px]">
+    <div class="flex flex-col dark:text-white mx-20 mr-[270px] items-center py-6">
+        <div class="my-3 uppercase font-black text-4xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-800 
+        dark:text-ransparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-600  dark:to-purple-800">
+            <h1 class="text-4xl items-center py-8">Contacto</h1>
+        </div>
+        <div class="flex flex-col items-center mx-[300]">
+            <div class="w-3/4 text-[20px] py-3 text-justify">
+                <h3 class="whitespace-normal">Si quieres contactarme para algun proyeco o pertenezca a tu equipo de trabajo puedes hacerlo mediante los siguientes medios</h3>
             </div>
+            <div class="w-3/4 text-[20px] my-2 text-justify">
+                <p class="whitespace-normal">📍- Colombia</p>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col mx-[380px] gap-y-4 pb-[160px]">
+        <div class="flex gap-3">
+            <a href="https://github.com/xChaarles">
+            <svg class="w-[30px] h-[30px] fill-[black] dark:fill-[white]" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+            </svg>
+            </a>
+            <a href="https://github.com/xChaarles" class="text-[20px] dark:text-white" >Github.com/xChaarles</a>
+        </div>
+        <div class="flex gap-3">
+            <a href="https://www.linkedin.com/in/carlosbp26">
+                <svg class="w-[30px] h-[30px] fill-[#35b6ed]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/carlosbp26" class="text-[20px] dark:text-white" >linkedin.com/in/carlosbp26</a>
+        </div>
+        <div class="flex gap-3">
+            <a href="https://www.linkedin.com/in/carlosbp26">
+                    <svg class="w-[30px] h-[30px] fill-[#ea4335]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                      <path
+                        d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+                    </svg>
+            </a>
+            <input type="text" class="text-[20px] dark:text-white dark:bg-black" placeholder="carlosbp26@gmail.com" >
+            <button (click)="copiar()" 
+            class="btn relative inline-flex items-center justify-start overflow-hidden font-medium shadow-cyan-600 border-2 border-[#35b6ed] transition-all bg-transparent rounded-xl hover:bg-white group py-[5px] px-[10px]">
+                <span class="w-56 h-48 rounded bg-[#35b6ed] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                <span class="relative w-full text-left text-[#35b6ed] transition-colors duration-300 ease-in-out group-hover:text-white">Copy!</span>
+            </button>
         </div>
     </div>
 </section>

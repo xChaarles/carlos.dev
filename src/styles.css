@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .shadow-cyan-600{
+        box-shadow: 5px 5px 0 #35b6ed ;
+    }
+
+    .shadow-card {
+        box-shadow: 
+        1px 1px 0px #35b6ed,
+        2px 2px 0px #35b6ed,
+        1px 3px 0px #35b6ed,
+        3px 1px 0px #35b6ed;
+    }
+}
