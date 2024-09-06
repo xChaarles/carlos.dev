@@ -9,9 +9,9 @@
 
     .shadow-card {
         box-shadow: 
-        1px 1px 0px #35b6ed,
-        2px 2px 0px #35b6ed,
-        1px 3px 0px #35b6ed,
-        3px 1px 0px #35b6ed;
+        0px 1px 0px #35b6ed,
+        0px 2px 0px #35b6ed,
+        0px 3px 0px #35b6ed,
+        0px 1px 0px #35b6ed;
     }
 }
