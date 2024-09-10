@@ -16,4 +16,5 @@ export  default class InfoPersonalComponent {
   copiar() {
     this.clipboard.copy('carlosbp2608@gmail.com');
   }
+
 }
